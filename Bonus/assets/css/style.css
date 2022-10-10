@@ -1,0 +1,30 @@
+body{
+    background-color:steelblue;
+}
+
+.container{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+}
+
+li{
+   list-style: none;
+   background-color: red;
+   padding: 2.5rem;
+   text-align: center;
+   border-radius: 1.5rem;
+   margin: 0.5rem 0.5rem;
+}
+
+.fizz{
+    background-color: aquamarine;
+}
+
+.buzz{
+    background-color: yellow;
+}
+
+.fizzbuzz{
+    background-color: magenta;
+}
