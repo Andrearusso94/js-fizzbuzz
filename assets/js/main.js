@@ -49,8 +49,8 @@ const listEl = document.querySelector("ul")
         console.log("buzz")
     }  else {
         const li =document.createElement("li");
-        li.append(i);
-        listEl.append(i);
+        li.append(`${i}`);
+        listEl.append(li);
         console.log(i)
     }
  }
