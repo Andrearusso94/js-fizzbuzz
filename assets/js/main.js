@@ -31,23 +31,26 @@ const listEl = document.querySelector("ul")
 
  for (let i = 1; i < 101; i++){
      
-   const li =document.createElement("li");
-   li.append(i);
-   listEl.append(li);
-
    if (i % 15 === 0) {
-    li.append(i);
-   listEl.append(li);
-        console.log("fizzbuzz")
+    const li =document.createElement("li");
+    li.append();
+    listEl.append("fizzbuzz");
+    console.log("fizzbuzz")
+        
      }else if (i % 3 === 0){
-        li.append(i);
-   listEl.append(li);
+        const li =document.createElement("li");
+        li.append();
+        listEl.append("fizz");
         console.log("fizz")
     } else if (i % 5 === 0){
-        li.append(i);
-   listEl.append(li);
+        const li =document.createElement("li");
+        li.append();
+        listEl.append("buzz");
         console.log("buzz")
     }  else {
+        const li =document.createElement("li");
+        li.append(i);
+        listEl.append(i);
         console.log(i)
     }
  }
