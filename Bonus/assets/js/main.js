@@ -24,7 +24,7 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.*/
 //BONUS 1:
 //Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
 
-/*const listEl = document.querySelector("ul")
+const listEl = document.querySelector("ul")
 
 
   
@@ -35,44 +35,6 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.*/
     const li =document.createElement("li");
     li.append("fizzbuzz");
     listEl.append(li);
-    console.log("fizzbuzz")
-        
-     }else if (i % 3 === 0){
-        const li =document.createElement("li");
-        li.append("fizz");
-        listEl.append(li);
-        console.log("fizz")
-    } else if (i % 5 === 0){
-        const li =document.createElement("li");
-        li.append("buzz");
-        listEl.append(li);
-        console.log("buzz")
-    }  else {
-        const li =document.createElement("li");
-        li.append(`${i}`);
-        listEl.append(li);
-        console.log(i)
-    }
- }*/
-
- //BONUS 2
-
- //Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. 
-    
-    
-
- const listEl = document.querySelector("ul")
-
-
-  
-
- for (let i = 1; i < 101; i++){
-     
-   if (i % 15 === 0) {
-    const li =document.createElement("li");
-    li.append("fizzbuzz");
-    listEl.append(li);
-    
     console.log("fizzbuzz")
         
      }else if (i % 3 === 0){
