@@ -33,19 +33,19 @@ const listEl = document.querySelector("ul")
      
    if (i % 15 === 0) {
     const li =document.createElement("li");
-    li.append();
-    listEl.append("fizzbuzz");
+    li.append("fizzbuzz");
+    listEl.append(li);
     console.log("fizzbuzz")
         
      }else if (i % 3 === 0){
         const li =document.createElement("li");
-        li.append();
-        listEl.append("fizz");
+        li.append("fizz");
+        listEl.append(li);
         console.log("fizz")
     } else if (i % 5 === 0){
         const li =document.createElement("li");
-        li.append();
-        listEl.append("buzz");
+        li.append("buzz");
+        listEl.append(li);
         console.log("buzz")
     }  else {
         const li =document.createElement("li");
